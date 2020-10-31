@@ -1,0 +1,54 @@
+baseURL = "karcam.net"
+languageCode = "tr-TR"
+title = "Karcam Cam Sistemleri"
+
+[params]
+  # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
+  google_analytics_id = "UA-80211163-2"
+  google_tag_manager_id = "GTM-M3MCD3J"
+
+  [params.homepage]
+    show_call_box = true
+
+  [params.logo]
+    mobile = "images/karcam-logo.png"
+    desktop = "images/karcam-logo.png"
+    desktop_height = "36px"
+    alt = "Karcam - Camcı | Cam Sistemleri"
+
+  [params.homepage_meta_tags]
+    meta_description = "Karcam Cam Sistemleri, camcılar arasında en iyi cam hizmeti veren firmamız, cam satışı, imalatı, montajı, cam değişimi ve tamiri gibi bir çok hizmetleri sizlere sunmaktadır."
+    meta_og_title = "Karcam | Cam Sistemleri"
+    meta_og_type = "Karcam"
+    meta_og_url = "https://karcam.net"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+    meta_og_description = ""Karcam Cam Sistemleri, camcılar arasında en iyi cam hizmeti veren firmamız, cam satışı, imalatı, montajı, cam değişimi ve tamiri gibi bir çok hizmetleri sizlere sunmaktadır."
+    meta_twitter_card = "karcam"
+    meta_twitter_site = "@karcam"
+    meta_twitter_creator = "@karcam"
+
+  [params.footer]
+    copyright_text = 'Karcam | Cam Sistemleri'
+
+[menu]
+  # Main Menu
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+      weight = 1
+
+  [[menu.main]]
+      name = "Team"
+      url = "/team/"
+      weight = 2
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+      weight = 2
