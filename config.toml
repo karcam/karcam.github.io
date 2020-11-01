@@ -33,22 +33,27 @@ title = "Karcam Cam Sistemleri"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Services"
-    url = "/services/"
+    name = "Hizmetlerimiz"
+    url = "/hizmetlerimiz/"
       weight = 1
 
   [[menu.main]]
-      name = "Team"
-      url = "/team/"
+      name = "Hakkımızda"
+      url = "/hakkimizda/"
       weight = 2
+  [[menu.main]]
+      name = "İletişim"
+      url = "/iletisim/"
+      weight = 3
+
 
   # Footer Menu
   [[menu.footer]]
-    name = "Home"
+    name = "Ana Sayfa"
     url = "/"
       weight = 1
 
   [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
+    name = "İletişim"
+    url = "/iletisim/"
       weight = 2
